@@ -11,7 +11,7 @@ There are three tables in the "news" database:
    3. slug `text`
    4. lead `text`
    5. body `text`
-   6. time [timestamp with time zone]
+   6. time `timestamp with time zone`
    7. id `integer`
 2. authors
    1. name `text`
@@ -22,7 +22,7 @@ There are three tables in the "news" database:
    2. ip `inet`
    3. method `text`
    4. status `text`
-   5. time [timestamp with time zone]
+   5. time `timestamp with time zone`
    6. id `integer`
 
 ## Questions to answer
